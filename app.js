@@ -41,15 +41,19 @@ console.log('Exercise 3 Result:\n', foods);
 
 /*
 Exercise 4:
-  - Access the string 'pizza' (based upon its known position) in the foods array and assign it to a variable named favFood.
+  - Access the string 'pizza' (based upon its known position) in the foods 
+  array and assign it to a variable named favFood.
 */
 
 // Complete Exercise 4 below...
 
 
+// assigned pizza to new var favFood
+let favFood = foods[1];
+
 
 console.log('Exercise 4 Result:\n', favFood);
-
+g
 /*
 Exercise 5:
   - Insert the string 'tofu' in the foods array between 'pizza' & 'cheeseburger'

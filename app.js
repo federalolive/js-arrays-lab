@@ -18,12 +18,12 @@ Exercise 2:
 // Complete Exercise 2 below...
 
 // add pizza and cheeseburger to array
-const foods = ['pizza', 'cheeseburger'];
+foods.push('pizza', 'hamburger');
 
 
 
 
-console.log('Exercise 2 Result:\n',  foods);
+// console.log('Exercise 2 Result:\n',  foods);
 
 /*
 Exercise 3:
@@ -31,6 +31,9 @@ Exercise 3:
 */
 
 // Complete Exercise 3 below...
+
+// add taco to front of array
+foods.unshift('taco');
 
 
 

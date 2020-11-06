@@ -125,12 +125,27 @@ Exercise 9:
   - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
     'taco -> sushi -> cupcake -> tofu -> cheeseburger'
 */
-console.log(foods)
 // Complete Exercise 9 below...
 
+// I thought this would create the code to rearrange sushi and tofu, but I couldn't get it to work. I found the code by doing a Google search and I added a bit to it in order to try and make it work. 
+
+// function moveArrayItemToNewIndex(foods, 1, 3){
+//   if (new_index >= foods.length) {
+//     var f = new_index - foods.length + 1;
+//     while (f--) {
+//       foods.push(undefined);
+//     }
+//    }
+//    foods.splice(new_index, 3, foods.splice(old_index, 1)[0]);
+//    return foods;
+//   }
+// console.log(moveArrayItemToNewIndex);
 
 
-// console.log('Exercise 9 Result:\n', allFoods);
+let allFoods = foods.join(' -> ');
+// allFoods.splice(0, 4, 'tofu'))
+
+console.log('Exercise 9 Result:\n', allFoods);
 
 /*
 Exercise 10:
@@ -139,9 +154,16 @@ Exercise 10:
 
 // Complete Exercise 10 below...
 
+// created boolean to determine if foods array contained soup
+// if array contained soup, then hasSoup would eqaul true
+if (foods.includes('soup')) {
+  let hasSoup = true
+} else [ 
+  hasSoup = false 
+]
 
 
-// console.log('Exercise 10 Result:\n', hasSoup);
+console.log('Exercise 10 Result:\n', hasSoup);
 
 /*
 Exercise 11:

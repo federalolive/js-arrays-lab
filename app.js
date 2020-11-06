@@ -18,7 +18,7 @@ Exercise 2:
 // Complete Exercise 2 below...
 
 // add pizza and cheeseburger to array
-foods.push('pizza', 'cheese burger');
+foods.push('pizza', 'cheeseburger');
 
 
 
@@ -67,6 +67,7 @@ foods[2]='tofu';
 foods[3]='cheeseburger';
 console.log(foods);
 
+// foods.splice(2, 0); // Why does this print "tofu" twice when ran? -nevermind, I "think" I understand. The addition in the splice was doing something funny, sorry I can't really explain why it messed up the code. 
 
 
 console.log('Exercise 5 Result:\n', foods);

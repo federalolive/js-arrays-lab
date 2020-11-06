@@ -18,7 +18,7 @@ Exercise 2:
 // Complete Exercise 2 below...
 
 // add pizza and cheeseburger to array
-foods.push('pizza', 'hamburger');
+foods.push('pizza', 'cheese burger');
 
 
 
@@ -62,9 +62,9 @@ Exercise 5:
 
 // Complete Exercise 5 below...
 
-// added string tofu into foods array between pizza and hamburger
+// added string tofu into foods array between pizza and cheeseburger
 foods[2]='tofu';
-foods[3]='hamburger';
+foods[3]='cheeseburger';
 console.log(foods);
 
 
@@ -111,66 +111,66 @@ let soyIdx = foods.indexOf('tofu')
 
 console.log('Exercise 8 Result:\n', soyIdx);
 
-// // /*
-// // Exercise 9:
-// //   - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
-// //     'taco -> sushi -> cupcake -> tofu -> cheeseburger'
-// // */
-
-// // // Complete Exercise 9 below...
-
-
-
-// // console.log('Exercise 9 Result:\n', allFoods);
-
-// // /*
-// // Exercise 10:
-// //   - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
-// // */
-
-// // // Complete Exercise 10 below...
+/*
+Exercise 9:
+  - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:
+    'taco -> sushi -> cupcake -> tofu -> cheeseburger'
+*/
+console.log(foods)
+// Complete Exercise 9 below...
 
 
 
-// // console.log('Exercise 10 Result:\n', hasSoup);
+// console.log('Exercise 9 Result:\n', allFoods);
 
-// // /*
-// // Exercise 11:
-// //   - Use the forEach method to iterate through the provided nums array and add each odd number to a new array named odds.
-// //   - Hint: Initialize the odds variable to an empty array before the iteration.
-// // */
+/*
+Exercise 10:
+  - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.
+*/
 
-// // const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
-
-// // // Complete Exercise 11 below...
+// Complete Exercise 10 below...
 
 
 
-// // console.log('Exercise 11 Result:\n', odds);
+// console.log('Exercise 10 Result:\n', hasSoup);
 
-// // /*
-// // Exercise 12:
-// //   - Use the forEach method to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
-// //   	- Add to the fizz array if the number is evenly divisible by 3.
-// //   	- Add to the buzz array if the number is evenly divisible by 5.
-// //   	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
-// // */
+/*
+Exercise 11:
+  - Use the forEach method to iterate through the provided nums array and add each odd number to a new array named odds.
+  - Hint: Initialize the odds variable to an empty array before the iteration.
+*/
 
-// // // Complete Exercise 12 below...
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+// Complete Exercise 11 below...
 
 
 
-// // console.log('Exercise 12 Results:');
-// // console.log('  fizz:', fizz);
-// // console.log('  buzz:', buzz);
-// // console.log('  fizzbuzz:', fizzbuzz);
+console.log('Exercise 11 Result:\n', odds);
 
-// // /*
-// Exercise 13:
-//   - Given the below numArrays array of arrays (two-dimensional array), 
-//     assign the last nested array to a variable named numList.
-//   - Assume you don't know how many nested arrays numArrays contains.
-// */
+/*
+Exercise 12:
+  - Use the forEach method to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:
+  	- Add to the fizz array if the number is evenly divisible by 3.
+  	- Add to the buzz array if the number is evenly divisible by 5.
+  	- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.
+*/
+
+// // Complete Exercise 12 below...
+
+
+
+// console.log('Exercise 12 Results:');
+// console.log('  fizz:', fizz);
+// console.log('  buzz:', buzz);
+// console.log('  fizzbuzz:', fizzbuzz);
+
+/*
+Exercise 13:
+  - Given the below numArrays array of arrays (two-dimensional array), 
+    assign the last nested array to a variable named numList.
+  - Assume you don't know how many nested arrays numArrays contains.
+*/
 
 const numArrays = [
 	[100, 5, 23],

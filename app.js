@@ -175,9 +175,22 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+// I have no idea what I am doing anymore lol sadly I knew the second way to solve this better than the "correct" way.
+let odds = [];
+  nums.forEach(function(num)){
+    if(num % 2 !== =){
+      odds.push(num)
+    }
+  }
 
+  // guess I do not remember... I will come back to this on Sat
+// let odds = [];
+// for (var i = 0; i < 100; i += 2) {
+//   ourArray.push(i);
+// }
 
-console.log('Exercise 11 Result:\n', odds);
+// console.log(odds);
+// console.log('Exercise 11 Result:\n', odds);
 
 /*
 Exercise 12:

@@ -162,6 +162,8 @@ if (foods.includes('soup')) {
   hasSoup = false 
 ]
 
+// tried to solve this using the ternary operator, but could not manage to make it work
+
 
 console.log('Exercise 10 Result:\n', hasSoup);
 
@@ -183,7 +185,7 @@ let odds = [];
     }
   }
 
-  // guess I do not remember... I will come back to this on Sat
+  // guess I do not remember... I will come back to this on Sat\
 // let odds = [];
 // for (var i = 0; i < 100; i += 2) {
 //   ourArray.push(i);

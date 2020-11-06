@@ -80,9 +80,13 @@ Exercise 6:
 // Complete Exercise 6 below...
 
 // removed pizza from string and added sushi and capcake
-let pos = foods.indexOf('pizza');
-let removedItem = foods.splice(pos, 1)
-foods.push('sushi', 'cupcake');
+// let pos = foods.indexOf('pizza');
+// let removedItem = foods.splice(pos, 1)
+// foods.push('sushi', 'cupcake');
+
+
+//  playing with answer from answer key 
+// foods.splice(1, 1, 'sushi', 'cupcake');
 
 console.log('Exercise 6 Result:\n', foods);
 

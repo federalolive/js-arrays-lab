@@ -99,16 +99,17 @@ let yummy = foods.slice(3, 5)
 
 console.log('Exercise 7 Result:\n', yummy);
 
-// /*
-// Exercise 8:
-//   - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
-// */
+/*
+Exercise 8:
+  - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
+*/
 
-// // Complete Exercise 8 below...
+// Complete Exercise 8 below...
 
+// assigned tofo to new index soyIdx - somehow did it relatively easily - not gloating, just proud!
+let soyIdx = foods.indexOf('tofu')
 
-
-// // console.log('Exercise 8 Result:\n', soyIdx);
+console.log('Exercise 8 Result:\n', soyIdx);
 
 // // /*
 // // Exercise 9:

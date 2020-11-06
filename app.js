@@ -80,9 +80,9 @@ Exercise 6:
 // Complete Exercise 6 below...
 
 // removed pizza from string and added sushi and capcake
-// let pos = foods.indexOf('pizza');
-// let removedItem = foods.splice(pos, 1)
-// foods.push('sushi', 'cupcake');
+let pos = foods.indexOf('pizza');
+let removedItem = foods.splice(pos, 1)
+foods.push('sushi', 'cupcake');
 
 
 //  playing with answer from answer key 
@@ -99,7 +99,11 @@ Exercise 7:
 // Complete Exercise 7 below...
 
 // removes sushi and cupcake and creates a new array
-let yummy = foods.slice(3, 5)
+let yummy = foods.slice(3, )
+
+// answer from answer key 
+// not sure if this is wrong, but the answer key will not take sushi and cupcake and create a new array with them. Out of curiosity, was it left wrong intentionally as an "integrity" check?
+// const yummy = foods.slice(1, 3);
 
 
 console.log('Exercise 7 Result:\n', yummy);

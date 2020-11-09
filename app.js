@@ -203,6 +203,18 @@ Exercise 12:
 */
 
 // // Complete Exercise 12 below...
+let fizz = [];
+let buzz = [];
+let fizzbuzz = [];
+
+run.forEach(function(num)) {
+  if (num % 3 === 3) {
+    fizz.push(num); 
+  }
+  if (num % 5 === 5) {
+    buzz.push(num);
+  }
+}
 
 
 
